@@ -9,7 +9,7 @@ import Footer from '../footer/footer'
 import ControlBar from '../../player/playerbar'
 import { trackSelector } from '../../../store/selectors/tracks'
 
-export default function MainWindow({ loading, tracklistError, children }) {
+export default function MainWindow({ loading, children }) {
   const selectedTrack = useSelector(trackSelector)
   return (
     <Main>

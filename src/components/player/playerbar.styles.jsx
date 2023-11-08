@@ -3,8 +3,6 @@ import { styled, css } from 'styled-components'
 const PlayerButtonsMixin = css`
   padding: 5px;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 `
 const PlayerButtonsActivatedMixin = css`
@@ -38,9 +36,6 @@ export const BarContent = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
 `
 
@@ -54,21 +49,13 @@ export const BarPlayerBlock = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
 `
 
 export const TrackPlay = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
 `
 
@@ -76,11 +63,8 @@ export const TrackPlayContain = styled.div`
   width: auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 1fr;
   grid-template-columns: auto 1fr;
   grid-template-areas: 'image author' 'image album';
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 `
 
@@ -91,16 +75,9 @@ export const TrackPlayImg = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
   margin-right: 12px;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
   grid-area: image;
 `
 
@@ -112,8 +89,6 @@ export const TrackPlaySvg = styled.svg`
 `
 
 export const TracjPlayAuthor = styled.div`
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   grid-area: author;
   min-width: 49px;
 `
@@ -128,8 +103,6 @@ export const TrackPlayAuthorLink = styled.a`
 `
 
 export const TrackPlayAlbum = styled.div`
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: album;
   min-width: 49px;
 `
@@ -146,12 +119,7 @@ export const TrackPlayLlikeAndDis = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   margin-left: 26%;
 `
@@ -185,15 +153,8 @@ export const BarPlayer = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
 `
 
@@ -201,9 +162,6 @@ export const PlayerControls = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
   padding: 0 27px 0 31px;
 `
@@ -213,8 +171,6 @@ export const BarVolumeBlock = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   padding: 0 92px 0 0;
   margin-left: auto;
@@ -224,14 +180,7 @@ export const VolumeContent = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
   justify-content: end;
 `
 
@@ -315,11 +264,7 @@ export const PlayerBtnRepeatSvg = styled.svg`
 export const PlayerBtnShuffle = styled.div`
   ${PlayerButtonsMixin}
   ${PlayerButtonsActivatedMixin}
-  /* display: -webkit-box;
-  display: -ms-flexbox; */
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 `
 

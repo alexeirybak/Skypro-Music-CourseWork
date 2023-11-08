@@ -8,7 +8,6 @@ function MenuItem(props) {
 
   return (
     <S.MenuItem>
-      {/* <S.MenuLink href="http://">{props.name}</S.MenuLink> */}
       <S.MenuLink
         style={theme}
         className="App-link"

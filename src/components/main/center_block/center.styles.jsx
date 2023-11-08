@@ -3,8 +3,6 @@ import { styled } from 'styled-components'
 export const Centerblock = styled.div`
   height: 100%;
   width: auto;
-  -webkit-box-flex: 3;
-  -ms-flex-positive: 3;
   flex-grow: 3;
   padding: 20px 40px 20px 111px;
 `

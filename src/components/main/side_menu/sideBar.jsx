@@ -23,17 +23,13 @@ export function SidebarItem(props) {
   )
 }
 
-{
-  /* <S.SidebarLink to={`/${props.path}/:${props.id}`}> */
-}
-
 export default function SideBar() {
   const compilations = [
     { id: '1', path: 'category', imgUrl: playlist01 },
     { id: '2', path: 'category', imgUrl: playlist02 },
     { id: '3', path: 'category', imgUrl: playlist03 },
   ]
-  // { id: '1', path: 'category', imgUrl: './img/playlist01.png' },
+
   const user = useUser()
 
   const setUser = useSetUser()

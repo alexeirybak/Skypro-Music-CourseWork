@@ -41,7 +41,6 @@ export default function Filter() {
   const pagePlaylist = useSelector(pagePlaylistSelector)
   const filter = useSelector(filterSelector)
   const dispatch = useDispatch()
-  // console.log(filter)
   const [Authors, Genres] = useMemo(() => {
     const list1 = [],
       list2 = []
