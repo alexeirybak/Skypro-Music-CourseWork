@@ -24,7 +24,6 @@ export default function Playlist({ loading, tracklistError }) {
     album: '',
     duration_in_seconds: '',
   })
-  // const tracks = loading ? tempTracks : list
   const tracks = useMemo(() => {
     if (loading) return tempTracks
     if (!list) return []

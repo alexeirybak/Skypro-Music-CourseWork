@@ -7,12 +7,7 @@ export const CenterblockSearch = styled.div`
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
 `
 
@@ -25,8 +20,6 @@ export const SearchSvg = styled.svg`
 `
 
 export const SearchText = styled.input`
-  -webkit-box-flex: 100;
-  -ms-flex-positive: 100;
   flex-grow: 100;
   background-color: transparent;
   border: none;
